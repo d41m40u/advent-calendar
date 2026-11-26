@@ -1,0 +1,419 @@
+{
+  "id": "crochet-2026",
+  "title": "The Crochet Advent Calendar",
+  "startDate": "2026-12-01",
+  "days": 24,
+  "order": [
+    7,
+    19,
+    2,
+    14,
+    23,
+    10,
+    4,
+    16,
+    11,
+    1,
+    21,
+    8,
+    13,
+    24,
+    5,
+    18,
+    3,
+    20,
+    9,
+    15,
+    22,
+    6,
+    12,
+    17
+  ],
+  "progress": "browser",
+  "allowPreview": true,
+  "locale": "en-US",
+  "labels": {
+    "doneCount": "made",
+    "doneTag": "Made",
+    "markDone": "Mark as made",
+    "done": "Made it ✓",
+    "openLink": "Open the free pattern",
+    "byPrefix": "Pattern by"
+  },
+  "theme": {
+    "bg": "#11261d",
+    "surface": "#1a3529",
+    "text": "#f2e9d6",
+    "accent": "#e0b25a",
+    "accentText": "#2a1e08",
+    "highlight": "#c4404a",
+    "info": "#a9c9d8",
+    "muted": "#a7b9ad",
+    "tiles": [
+      "#9e2f38",
+      "#2d5a42",
+      "#253a52"
+    ]
+  },
+  "panel": {
+    "heading": "Gather these before December",
+    "items": [
+      "A 4-inch plastic ball ornament (Day 17)",
+      "Super bulky yarn (Day 6) and bulky yarn (Day 4)",
+      "Sport-weight yarn and a 2 mm hook (Day 20)",
+      "DK yarn, a 2.5 mm hook and two 6 mm safety eyes (Day 22)",
+      "Fiberfill for the little stuffed figures, and plenty of red, white, green and brown worsted"
+    ]
+  },
+  "footer": "Every pattern and photo belongs to its designer. Each door links to the designer's free pattern page, so the designer gets the visit.",
+  "entries": [
+    {
+      "title": "Christmas Gift Card Holder",
+      "by": "Jo To The World",
+      "url": "https://jototheworld.com/crochet-gift-card-holder-christmas",
+      "img": "https://jototheworld.com/wp-content/uploads/2023/06/christmas-gift-card-holder-crochet-pattern-feat.jpg",
+      "icon": "gift-card",
+      "blurb": "A festive sleeve for a gift card, finished with a belt buckle. It turns a gift card into something handmade.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      },
+      "notes": [
+        "Only chain, single crochet and slip stitch",
+        "Hang it on the tree for Christmas morning"
+      ]
+    },
+    {
+      "title": "Christmas Ball Ornament",
+      "by": "Desert Blossom Crafts",
+      "url": "https://desertblossomcrafts.com/quick-christmas-ornaments-free-crochet-pattern/",
+      "img": "https://desertblossomcrafts.com/wp-content/uploads/2018/11/ornament-featured-image.png",
+      "icon": "bauble",
+      "blurb": "A classic round bauble. It goes quickly enough that you may want a second one in a different color.",
+      "facts": {
+        "Time": "10–20 min"
+      },
+      "notes": [
+        "The designer made a second set in jewel tones, so any palette works"
+      ]
+    },
+    {
+      "title": "Mini Mitten Ornament",
+      "by": "Desert Blossom Crafts",
+      "url": "https://desertblossomcrafts.com/crochet-mitten-ornament-pattern/",
+      "img": "https://desertblossomcrafts.com/wp-content/uploads/2021/07/Crochet-Mitten-Ornament-Pattern-Free-Easy.jpg",
+      "icon": "mitten",
+      "blurb": "A tiny mitten for the tree. Make a pair and join them with a length of yarn.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      },
+      "notes": [
+        "Same designer as Day 9's mini hat, so the two make a set"
+      ]
+    },
+    {
+      "title": "Peppermint Candy Ornament",
+      "by": "Moogly",
+      "url": "https://www.mooglyblog.com/crochet-peppermint-candy-ornament/",
+      "img": "https://www.mooglyblog.com/wp-content/uploads/2024/12/Crochet-Peppermint-Candy-Ornament-Hero-2-web.jpg",
+      "icon": "peppermint",
+      "blurb": "A wrapped red-and-white peppermint. Use it on the tree or as a present topper.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      },
+      "notes": [
+        "Bulky yarn, 5 mm (H) hook, about 8 yards",
+        "About 2 inches across"
+      ]
+    },
+    {
+      "title": "Coffee Mug Cozy",
+      "by": "Jo To The World",
+      "url": "https://jototheworld.com/crochet-coffee-cozy",
+      "img": "https://jototheworld.com/wp-content/uploads/2022/02/crochet-coffee-cozy-1.jpg",
+      "icon": "mug",
+      "blurb": "The first weekend project, and one you'll use every morning. A sleeve for your favorite mug.",
+      "facts": {
+        "Time": "Under 1 hr"
+      },
+      "notes": [
+        "Uses the star stitch; the pattern teaches it step by step"
+      ]
+    },
+    {
+      "title": "Mimi Ear Warmer",
+      "by": "Blue Star Crochet",
+      "url": "https://bluestarcrochet.com/free-easy-crochet-ear-warmer-pattern/",
+      "img": "https://bluestarcrochet.com/wp-content/uploads/2022/04/1.jpg",
+      "icon": "ear-warmer",
+      "blurb": "A chunky headband worked as one strip, with a chevron point down the middle.",
+      "facts": {
+        "Time": "About 1 hr"
+      },
+      "notes": [
+        "Super bulky yarn",
+        "Includes a size chart"
+      ]
+    },
+    {
+      "title": "Tiny Santa Hat",
+      "by": "Nicole Chase",
+      "url": "https://www.thenicolechase.com/patterns/tiny-santa-hat",
+      "img": "https://www.thenicolechase.com/wp-content/uploads/2023/11/Santa-Hat-Ornament-3-1024x819.jpg",
+      "icon": "santa-hat",
+      "blurb": "A little Santa hat with a pompom. Works as an ornament, a keychain or a gift tag.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      },
+      "notes": [
+        "About 2 inches",
+        "Beginner level"
+      ]
+    },
+    {
+      "title": "Christmas Tree Ornament",
+      "by": "The Purple Poncho",
+      "url": "https://www.thepurpleponcho.com/crochet-christmas-tree-ornament/",
+      "img": "https://www.thepurpleponcho.com/wp-content/uploads/2019/12/Christmas-Tree-Ornament-Free-Crochet-Pattern-on-thepurpleponcho.com-Crochet-by-Carolyn.jpg",
+      "icon": "tree",
+      "blurb": "A tree to hang on the tree. Add a few beads or French knots as ornaments if you like.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      }
+    },
+    {
+      "title": "Mini Beanie Ornament",
+      "by": "Desert Blossom Crafts",
+      "url": "https://desertblossomcrafts.com/crochet-mini-hat-free-pattern/",
+      "img": "https://desertblossomcrafts.com/wp-content/uploads/2021/07/Crochet-Mini-Hat-Free-Pattern-Christmas-Ornament.jpg",
+      "icon": "beanie",
+      "blurb": "A miniature winter beanie. Hang it next to Day 3's mittens.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      },
+      "notes": [
+        "Beginner friendly",
+        "The pattern has tips on choosing colors"
+      ]
+    },
+    {
+      "title": "Stocking Ornament",
+      "by": "Stitches n Scraps",
+      "url": "https://stitchesnscraps.com/free-pattern-stocking-ornament/",
+      "img": "https://stitchesnscraps.com/wp-content/uploads/2018/09/Stocking-Ornament-square.jpg",
+      "icon": "stocking",
+      "blurb": "A little stocking with a folded cuff. Use it as an ornament or tuck a small treat inside.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      },
+      "notes": [
+        "Any yarn size works, so it's a good scrap-buster"
+      ]
+    },
+    {
+      "title": "Gingerbread Man Ornament",
+      "by": "Easy Crochet",
+      "url": "https://easycrochet.com/crochet-gingerbread-man-pattern/",
+      "icon": "gingerbread",
+      "blurb": "A cookie that won't go stale. White yarn makes the icing and a bit of red makes the buttons.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      }
+    },
+    {
+      "title": "Gingerbread House Ornament",
+      "by": "The Purple Poncho",
+      "url": "https://www.thepurpleponcho.com/gingerbread-house-ornament/",
+      "img": "https://www.thepurpleponcho.com/wp-content/uploads/2022/12/Crochet-Gingerbread-House-Ornament-Plus-Video-Free-Crochet-Pattern-on-thepurpleponcho.com-Crochet-by-Carolyn.jpg",
+      "icon": "gingerbread-house",
+      "blurb": "A weekend project with a home for yesterday's gingerbread man.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      },
+      "notes": [
+        "The pattern comes with a video"
+      ]
+    },
+    {
+      "title": "Tiny Snowman",
+      "by": "Nicole Chase",
+      "url": "https://www.thenicolechase.com/patterns/tiny-snowman",
+      "img": "https://www.thenicolechase.com/wp-content/uploads/2023/12/Tiny-Snowman-3-1024x819.jpg",
+      "icon": "snowman",
+      "blurb": "A small stuffed snowman with a carrot nose and a pompom hat.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      },
+      "notes": [
+        "About 2 inches",
+        "4 mm (G) hook",
+        "Beginner level"
+      ]
+    },
+    {
+      "title": "Snowflake Coaster",
+      "by": "Pattern Princess",
+      "url": "https://allfreecrochet.com/Christmas-Crochet/Pretty-Snowflake-Coaster",
+      "icon": "coaster",
+      "blurb": "A snowflake that sits flat under your cocoa mug. Make one per person at the table.",
+      "facts": {
+        "Time": "Under 30 min"
+      },
+      "notes": [
+        "The designer says under 30 minutes, ends woven in"
+      ]
+    },
+    {
+      "title": "Poinsettia Ornament",
+      "by": "Desert Blossom Crafts",
+      "url": "https://desertblossomcrafts.com/crochet-poinsettia-pattern/",
+      "img": "https://desertblossomcrafts.com/wp-content/uploads/2021/07/Crochet-Poinsettia-Pattern-Christmas-Flower-Ornament.jpg",
+      "icon": "poinsettia",
+      "blurb": "The Christmas flower, small enough for a branch. It looks good on a wrapped gift too.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      },
+      "notes": [
+        "Two petal layers plus a yellow center, sewn together",
+        "No unusual techniques"
+      ]
+    },
+    {
+      "title": "Ugly Sweater Ornament",
+      "by": "Stitch by Fay",
+      "url": "https://www.stitchbyfay.com/ugly-sweater-ornament-crochet-pattern/",
+      "img": "https://i0.wp.com/www.stitchbyfay.com/wp-content/uploads/2021/12/ugly-sweater-ornament-pattern.jpg?fit=1200%2C1200&ssl=1",
+      "icon": "sweater",
+      "blurb": "A tiny holiday sweater. Decorate it as loudly as you like.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      },
+      "notes": [
+        "Worked top down; sleeves and neckline go on last"
+      ]
+    },
+    {
+      "title": "Christmas Bulb Cover",
+      "by": "Just B Crafty",
+      "url": "https://justbcrafty.com/easy-crochet-christmas-ornaments-free-pattern/",
+      "img": "https://justbcrafty.com/wp-content/uploads/2025/11/crochet-ornament-10.jpg",
+      "icon": "bulb",
+      "blurb": "A crocheted cover that dresses up a plain plastic bauble and gathers at the top.",
+      "facts": {
+        "Time": "10–30 min"
+      },
+      "notes": [
+        "Needs a 4-inch round plastic ornament"
+      ]
+    },
+    {
+      "title": "Simple Snowflake",
+      "by": "Stitches n Scraps",
+      "url": "https://stitchesnscraps.com/free-pattern-simple-snowflake/",
+      "img": "https://stitchesnscraps.com/wp-content/uploads/2018/12/Snowflake-Facebook.jpg",
+      "icon": "snowflake",
+      "blurb": "A small snowflake for the last stretch before Christmas. Hang it on the tree, tie it to a gift, or make a handful and string them into a garland.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      },
+      "notes": [
+        "Only three rounds",
+        "Works in any yarn or thread; the size follows your yarn"
+      ]
+    },
+    {
+      "title": "1-Hour Christmas Tree",
+      "by": "Crochet Highway",
+      "url": "https://crochethighway.com/1-hour-crochet-christmas-tree-free-crochet-pattern/",
+      "img": "https://images4-f.ravelrycache.com/uploads/CrochetHighway/962282762/Christmas_Tree_Post__5__small2.jpg",
+      "icon": "cone-tree",
+      "blurb": "A standing tree for a shelf or mantel, with a contrast color for the snow.",
+      "facts": {
+        "Time": "About 1 hr"
+      },
+      "notes": [
+        "About 7 inches tall",
+        "About 60 yards of worsted in two colors"
+      ]
+    },
+    {
+      "title": "Mini Santa Claus",
+      "by": "Little Crochet Farm",
+      "url": "https://littlecrochetfarm.com/mini-santa-claus-free-crochet-pattern/",
+      "img": "https://littlecrochetfarm.com/wp-content/uploads/2024/11/mini-santa-claus-amigurumi-free-crochet-pattern-5-of-7.jpg",
+      "icon": "santa",
+      "blurb": "The most detailed project in the calendar, saved for a Sunday. A small stuffed Santa to hang or set out.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      },
+      "notes": [
+        "About 3 inches tall with the hat",
+        "Sport-weight yarn and a 2 mm hook",
+        "Several small pieces; there's a video tutorial"
+      ]
+    },
+    {
+      "title": "Christmas Wreath Ornament",
+      "by": "The Stitchin' Mommy",
+      "url": "https://www.thestitchinmommy.com/crochet-christmas-wreath-ornament/",
+      "img": "https://i0.wp.com/www.thestitchinmommy.com/wp-content/uploads/2015/08/christmaswreathornament1.jpg?fit=700%2C464&ssl=1",
+      "icon": "wreath",
+      "blurb": "A small green wreath with red trim. It looks just as good on a door handle as on the tree.",
+      "facts": {
+        "Time": "Not listed by the designer"
+      },
+      "notes": [
+        "About 4 inches across",
+        "About 24 yards of worsted, 5 mm (H) hook",
+        "Easy"
+      ]
+    },
+    {
+      "title": "Reindeer Ornament",
+      "by": "EyeLoveKnots",
+      "url": "https://eyeloveknots.com/2023/11/reindeer-ornament-free-crochet-pattern.html",
+      "img": "https://eyeloveknots.com/wp-content/uploads/2023/11/20231122_184337.jpg",
+      "icon": "reindeer",
+      "blurb": "A little stuffed reindeer head with a red nose. Hang it on the tree or tie it onto a gift.",
+      "facts": {
+        "Time": "About 1 hr"
+      },
+      "notes": [
+        "About 2⅝ inches tall",
+        "Light (DK) yarn in beige, white and brown, 2.5 mm hook",
+        "Two 6 mm safety eyes and a little stuffing",
+        "Single crochet throughout, with a video tutorial"
+      ]
+    },
+    {
+      "title": "Flat Candy Cane",
+      "by": "Christa Co Design",
+      "url": "https://christacodesign.com/free-flat-candy-cane-crochet-pattern/",
+      "img": "https://christacodesign.com/wp-content/uploads/2022/11/flat-candy-cane-crochet-pattern.jpg",
+      "icon": "candy-cane",
+      "blurb": "A striped candy cane that works as a gift tag or topper. Add a green ribbon bow.",
+      "facts": {
+        "Time": "About 35 min"
+      },
+      "notes": [
+        "About 12 yards of worsted in red and white",
+        "3.5 mm (E) hook",
+        "About 4 inches tall"
+      ]
+    },
+    {
+      "title": "Christmas Star",
+      "by": "Joy of Motion Crochet",
+      "url": "https://joyofmotioncrochet.com/christmas-star-crochet-ornament-free-crochet-pattern/",
+      "img": "https://joyofmotioncrochet.com/wp-content/uploads/2022/12/Crochet-Christmas-Star-Crochet-Ornament-featured.jpg",
+      "icon": "star",
+      "blurb": "The last door. A star for Christmas Eve, for the top of a garland or a gift.",
+      "facts": {
+        "Time": "About 1 hr"
+      },
+      "notes": [
+        "One color of yarn",
+        "Hook and yarn size set the star's size"
+      ]
+    }
+  ]
+}

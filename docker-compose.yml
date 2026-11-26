@@ -1,0 +1,16 @@
+services:
+  advent-calendar:
+    build: .
+    image: advent-calendar:local
+    container_name: advent-calendar
+    ports:
+      - "8090:8080"
+    environment:
+      # Which file in ./config to serve. Copy example.json, edit it, and point this at it.
+      CALENDAR_FILE: ${CALENDAR_FILE:-calendar.json}
+    volumes:
+      - ./config:/config:ro
+      - ./data:/data
+    labels:
+      diun.enable: "false"   # locally built image; nothing to watch upstream
+    restart: unless-stopped
