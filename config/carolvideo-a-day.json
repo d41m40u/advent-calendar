@@ -1,0 +1,294 @@
+{
+  "id": "carolvideo-a-day",
+  "title": "A Carol Video a Day",
+  "startDate": "2026-12-01",
+  "days": 24,
+  "order": "sequential",
+  "progress": "browser",
+  "locale": "en-US",
+  "labels": {
+    "doneCount": "heard",
+    "doneTag": "Heard",
+    "markDone": "Mark as heard",
+    "done": "Heard ✓",
+    "openLink": "Watch on YouTube",
+    "byPrefix": "Performed by"
+  },
+  "theme": {
+    "bg": "#14121f",
+    "surface": "#221e33",
+    "accent": "#f5c04a",
+    "tiles": [
+      "#7a2632",
+      "#24533f",
+      "#2b3a63"
+    ]
+  },
+  "footer": "One Christmas carol a day, December 1 to 24, ending with Silent Night on Christmas Eve. Every link goes to the performer's or label's own YouTube channel, and all music and videos belong to their owners.",
+  "entries": [
+    {
+      "title": "Once in Royal David's City",
+      "by": "King's College Choir, Cambridge",
+      "url": "https://www.youtube.com/watch?v=PtiCLJvyePw",
+      "img": "https://i.ytimg.com/vi/PtiCLJvyePw/hqdefault.jpg",
+      "icon": "star",
+      "blurb": "Traditionally the first carol of the Festival of Nine Lessons and Carols at King's College, with the opening verse sung by a single treble.",
+      "facts": {
+        "YouTube channel": "KingsCollegeChoir"
+      }
+    },
+    {
+      "title": "O Come, O Come, Emmanuel",
+      "by": "Sufjan Stevens",
+      "url": "https://www.youtube.com/watch?v=Cppww7NoOYM",
+      "img": "https://i.ytimg.com/vi/Cppww7NoOYM/hqdefault.jpg",
+      "icon": "🕯️",
+      "blurb": "An Advent hymn of longing, based on the medieval 'O Antiphons'.",
+      "facts": {
+        "YouTube channel": "Sufjan Stevens"
+      }
+    },
+    {
+      "title": "Deck the Halls",
+      "by": "Nat King Cole",
+      "url": "https://www.youtube.com/watch?v=kORRidv-p0Y",
+      "img": "https://i.ytimg.com/vi/kORRidv-p0Y/hqdefault.jpg",
+      "icon": "wreath",
+      "blurb": "Fa-la-la-la-la. The melody comes from an old Welsh New Year's tune, 'Nos Galan'.",
+      "facts": {
+        "YouTube channel": "NatKingColeVEVO"
+      }
+    },
+    {
+      "title": "Carol of the Bells",
+      "by": "Lindsey Stirling",
+      "url": "https://www.youtube.com/watch?v=EKkzbbLYPuI",
+      "img": "https://i.ytimg.com/vi/EKkzbbLYPuI/hqdefault.jpg",
+      "icon": "🔔",
+      "blurb": "Built on 'Shchedryk', a Ukrainian folk chant arranged by Mykola Leontovych. This version is played on violin.",
+      "facts": {
+        "YouTube channel": "Lindsey Stirling"
+      }
+    },
+    {
+      "title": "Good King Wenceslas",
+      "by": "Bing Crosby",
+      "url": "https://www.youtube.com/watch?v=FvtZ0ok521M",
+      "img": "https://i.ytimg.com/vi/FvtZ0ok521M/hqdefault.jpg",
+      "icon": "snowflake",
+      "blurb": "Saint Wenceslaus, Duke of Bohemia, braves the snow on St Stephen's Day to help a poor man. The words are by John Mason Neale.",
+      "facts": {
+        "YouTube channel": "Bing Crosby"
+      }
+    },
+    {
+      "title": "The First Noel",
+      "by": "Pentatonix",
+      "url": "https://www.youtube.com/watch?v=0u5UvnKlCTA",
+      "img": "https://i.ytimg.com/vi/0u5UvnKlCTA/hqdefault.jpg",
+      "icon": "star",
+      "blurb": "A traditional English carol about the shepherds and the star, sung a cappella.",
+      "facts": {
+        "YouTube channel": "PentatonixVEVO"
+      }
+    },
+    {
+      "title": "God Rest Ye Merry, Gentlemen",
+      "by": "Annie Lennox",
+      "url": "https://www.youtube.com/watch?v=ZlsJD8RlhbI",
+      "img": "https://i.ytimg.com/vi/ZlsJD8RlhbI/hqdefault.jpg",
+      "icon": "🎩",
+      "blurb": "One of the oldest carols still widely sung. Dickens quotes it in A Christmas Carol.",
+      "facts": {
+        "YouTube channel": "AnnieLennoxVEVO"
+      }
+    },
+    {
+      "title": "O Tannenbaum",
+      "by": "Vince Guaraldi Trio",
+      "url": "https://www.youtube.com/watch?v=_fh133ZO1AE",
+      "img": "https://i.ytimg.com/vi/_fh133ZO1AE/hqdefault.jpg",
+      "icon": "tree",
+      "blurb": "The German 'O Christmas Tree' as jazz piano, from the 1965 soundtrack of A Charlie Brown Christmas.",
+      "facts": {
+        "YouTube channel": "VinceGuaraldiVEVO"
+      }
+    },
+    {
+      "title": "Angels We Have Heard on High",
+      "by": "The Piano Guys",
+      "url": "https://www.youtube.com/watch?v=n543eKIdbUI",
+      "img": "https://i.ytimg.com/vi/n543eKIdbUI/hqdefault.jpg",
+      "icon": "🎹",
+      "blurb": "A French carol, 'Les Anges dans nos campagnes', famous for its long 'Gloria in excelsis Deo' refrain.",
+      "facts": {
+        "YouTube channel": "The Piano Guys"
+      }
+    },
+    {
+      "title": "Away in a Manger",
+      "by": "Carrie Underwood",
+      "url": "https://www.youtube.com/watch?v=8zVn0Kt9jYE",
+      "img": "https://i.ytimg.com/vi/8zVn0Kt9jYE/hqdefault.jpg",
+      "icon": "🌾",
+      "blurb": "A lullaby carol first published in America in the late 1800s.",
+      "facts": {
+        "YouTube channel": "carrieunderwoodVEVO"
+      }
+    },
+    {
+      "title": "It Came Upon the Midnight Clear",
+      "by": "Frank Sinatra",
+      "url": "https://www.youtube.com/watch?v=_xgJmKYx4SU",
+      "img": "https://i.ytimg.com/vi/_xgJmKYx4SU/hqdefault.jpg",
+      "icon": "🌙",
+      "blurb": "Written by Edmund Sears in Massachusetts in 1849.",
+      "facts": {
+        "YouTube channel": "FrankSinatraVEVO"
+      }
+    },
+    {
+      "title": "Ding Dong Merrily on High",
+      "by": "King's College Choir, Cambridge",
+      "url": "https://www.youtube.com/watch?v=OppQRVsdkNs",
+      "img": "https://i.ytimg.com/vi/OppQRVsdkNs/hqdefault.jpg",
+      "icon": "bauble",
+      "blurb": "Words by George Ratcliffe Woodward, set to a lively 16th-century French dance tune.",
+      "facts": {
+        "YouTube channel": "KingsCollegeChoir"
+      }
+    },
+    {
+      "title": "Go Tell It on the Mountain",
+      "by": "Mahalia Jackson",
+      "url": "https://www.youtube.com/watch?v=EizfkXtv63E",
+      "img": "https://i.ytimg.com/vi/EizfkXtv63E/hqdefault.jpg",
+      "icon": "⛰️",
+      "blurb": "An African-American spiritual, collected and published by John Wesley Work Jr.",
+      "facts": {
+        "YouTube channel": "Mahalia Jackson - Topic"
+      }
+    },
+    {
+      "title": "We Wish You a Merry Christmas",
+      "by": "John Denver & The Muppets",
+      "url": "https://www.youtube.com/watch?v=LksA53iiYy0",
+      "img": "https://i.ytimg.com/vi/LksA53iiYy0/hqdefault.jpg",
+      "icon": "🐸",
+      "blurb": "A traditional English carol from the West Country. Bring on the figgy pudding.",
+      "facts": {
+        "YouTube channel": "John Denver"
+      }
+    },
+    {
+      "title": "In the Bleak Midwinter",
+      "by": "Sarah McLachlan",
+      "url": "https://www.youtube.com/watch?v=Hm9_-jvfn1Y",
+      "img": "https://i.ytimg.com/vi/Hm9_-jvfn1Y/hqdefault.jpg",
+      "icon": "snowman",
+      "blurb": "A poem by Christina Rossetti, set to music by Gustav Holst.",
+      "facts": {
+        "YouTube channel": "The Official Sarah McLachlan"
+      }
+    },
+    {
+      "title": "The Little Drummer Boy",
+      "by": "Pentatonix",
+      "url": "https://www.youtube.com/watch?v=qJ_MGWio-vc",
+      "img": "https://i.ytimg.com/vi/qJ_MGWio-vc/hqdefault.jpg",
+      "icon": "🥁",
+      "blurb": "Written in 1941 by Katherine Kennicott Davis, originally as 'Carol of the Drum'. Pa-rum-pum-pum-pum.",
+      "facts": {
+        "YouTube channel": "Pentatonix"
+      }
+    },
+    {
+      "title": "Joy to the World",
+      "by": "Whitney Houston",
+      "url": "https://www.youtube.com/watch?v=l1zHFT4zsa8",
+      "img": "https://i.ytimg.com/vi/l1zHFT4zsa8/hqdefault.jpg",
+      "icon": "🎺",
+      "blurb": "Words by Isaac Watts (1719). Whitney's gospel version is from The Preacher's Wife.",
+      "facts": {
+        "YouTube channel": "whitneyhoustonVEVO"
+      }
+    },
+    {
+      "title": "What Child Is This?",
+      "by": "Andrea Bocelli",
+      "url": "https://www.youtube.com/watch?v=EbvwwwTqeRo",
+      "img": "https://i.ytimg.com/vi/EbvwwwTqeRo/hqdefault.jpg",
+      "icon": "🎶",
+      "blurb": "William Chatterton Dix's 1865 words set to 'Greensleeves'. Recorded live at the Kodak Theatre in 2009.",
+      "facts": {
+        "YouTube channel": "AndreaBocelliVEVO"
+      }
+    },
+    {
+      "title": "O Little Town of Bethlehem",
+      "by": "Elvis Presley",
+      "url": "https://www.youtube.com/watch?v=39YXQ5FAAHU",
+      "img": "https://i.ytimg.com/vi/39YXQ5FAAHU/hqdefault.jpg",
+      "icon": "🏘️",
+      "blurb": "Written by Phillips Brooks, inspired by his visit to Bethlehem in 1865.",
+      "facts": {
+        "YouTube channel": "ElvisPresleyVEVO"
+      }
+    },
+    {
+      "title": "Adeste Fideles",
+      "by": "Andrea Bocelli",
+      "url": "https://www.youtube.com/watch?v=okyzEnO7g3c",
+      "img": "https://i.ytimg.com/vi/okyzEnO7g3c/hqdefault.jpg",
+      "icon": "candy-cane",
+      "blurb": "The Latin original of 'O Come, All Ye Faithful', usually credited to John Francis Wade in the 1700s.",
+      "facts": {
+        "YouTube channel": "AndreaBocelliVEVO"
+      }
+    },
+    {
+      "title": "Hark! The Herald Angels Sing",
+      "by": "King's College Choir, Cambridge",
+      "url": "https://www.youtube.com/watch?v=9Bwn0k0k8xI",
+      "img": "https://i.ytimg.com/vi/9Bwn0k0k8xI/hqdefault.jpg",
+      "icon": "👼",
+      "blurb": "Charles Wesley's words, a tune adapted from Mendelssohn, and David Willcocks's soaring descant.",
+      "facts": {
+        "YouTube channel": "KingsCollegeChoir"
+      }
+    },
+    {
+      "title": "Coventry Carol",
+      "by": "Anúna",
+      "url": "https://www.youtube.com/watch?v=Wit-jGD4wCw",
+      "img": "https://i.ytimg.com/vi/Wit-jGD4wCw/hqdefault.jpg",
+      "icon": "🌟",
+      "blurb": "A haunting 16th-century English carol from the Coventry mystery plays, sung by the Irish choir Anúna.",
+      "facts": {
+        "YouTube channel": "The Anúna Collective"
+      }
+    },
+    {
+      "title": "O Holy Night",
+      "by": "Josh Groban",
+      "url": "https://www.youtube.com/watch?v=hJw-ey1DPRA",
+      "img": "https://i.ytimg.com/vi/hJw-ey1DPRA/hqdefault.jpg",
+      "icon": "✨",
+      "blurb": "'Minuit, chrétiens' by Adolphe Adam, 1847. Fall on your knees.",
+      "facts": {
+        "YouTube channel": "Josh Groban"
+      }
+    },
+    {
+      "title": "Silent Night",
+      "by": "Bing Crosby",
+      "url": "https://www.youtube.com/watch?v=W_D-F5qbPfs",
+      "img": "https://i.ytimg.com/vi/W_D-F5qbPfs/hqdefault.jpg",
+      "icon": "🌠",
+      "blurb": "First sung on Christmas Eve 1818 in Oberndorf, Austria. Words by Joseph Mohr, music by Franz Gruber.",
+      "facts": {
+        "YouTube channel": "BingCrosbyVEVO"
+      }
+    }
+  ]
+}
