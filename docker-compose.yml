@@ -4,7 +4,8 @@ services:
     image: advent-calendar:local
     container_name: advent-calendar
     ports:
-      - "8090:8080"
+      # Host port. Override in .env (e.g. HOST_PORT=8090) to run on a different port.
+      - "${HOST_PORT:-8080}:8080"
     environment:
       # Which file in ./config to serve. Copy example.json, edit it, and point this at it.
       CALENDAR_FILE: ${CALENDAR_FILE:-calendar.json}

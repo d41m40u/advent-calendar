@@ -4,6 +4,9 @@ A small, self-hosted advent calendar for **any list of links**. Each day unlocks
 
 The whole calendar is defined in **one JSON file**. You don't need to write code, set up a database or create accounts.
 
+> [!IMPORTANT]
+> **This project was written entirely by AI.** Claude, Anthropic's AI model, wrote all of the code and documentation. I haven't personally reviewed every part of it. It works for my own use on a home network, but treat it as unaudited code: read it before you rely on it, and don't expose it to the internet without the precautions in [Exposing it to the internet](#exposing-it-to-the-internet). See [How this was made](#how-this-was-made).
+
 ![The calendar grid](docs/screenshots/grid.png)
 
 ## Features
@@ -219,6 +222,7 @@ services:
 | `CONFIG_DIR` | `/config` | Where calendar files are read from |
 | `DATA_DIR` | `/data` | Where server-mode progress is written |
 | `PORT` | `8080` | Port inside the container |
+| `HOST_PORT` | `8080` | Port published on the host by `docker-compose.yml`. Set it in a `.env` file next to the compose file, e.g. `HOST_PORT=8090`. If you change it, point your reverse proxy at the new port. |
 
 ### Volumes
 
@@ -251,6 +255,17 @@ location /advent/ {
 ### Security and privacy
 
 - **There's no login.** Anyone who can reach the port can see the calendar. In server progress mode, they can also change the shared marks. That's fine on a home network. If you put it on the internet, put it behind your reverse proxy's authentication, or keep `"progress": "browser"`.
+
+#### Exposing it to the internet
+
+The app is built for a home network. It runs on Python's built-in `http.server`, which [the Python docs warn](https://docs.python.org/3/library/http.server.html#security-considerations) is not meant for production, and it serves plain HTTP only. **Don't forward the port straight through your router.** To reach it from outside:
+
+1. **Put a reverse proxy in front.** Caddy, nginx, Traefik or a Cloudflare Tunnel all work (see [Behind a reverse proxy](#behind-a-reverse-proxy)). The proxy handles HTTPS, slow or malformed connections, and request limits, so the Python server only ever talks to the proxy.
+2. **Publish the port only on localhost** so the app can't be reached around the proxy. In `docker-compose.yml`, use `"127.0.0.1:${HOST_PORT:-8080}:8080"`. If the proxy runs in Docker, put both on a shared network and remove the `ports:` entry instead.
+3. **Add a login at the proxy,** such as Caddy's `basic_auth`, nginx `auth_basic`, or Cloudflare Access, if the calendar is private or uses `"progress": "server"`. Without one, any visitor can tick or untick days for everyone.
+4. **Keep it patched.** Rebuild now and then (see [Updating](#updating)) to pick up a newer Python base image.
+
+Better still, use a private network such as Tailscale or WireGuard instead. Then nothing is exposed at all.
 - **The progress API only accepts** `{"day": <1..days>, "done": <bool>}` with a body of 1 KB or less. Writes are atomic.
 - **Text from the config is HTML-escaped,** and only `http(s)` URLs are accepted for links and images.
 - **Third-party requests:** the page loads fonts from Google Fonts, plus any image URLs you put in the config. Images load with `no-referrer`. There are no analytics or trackers.
@@ -296,10 +311,20 @@ docker-compose.yml      One service on port 8080
 
 To add a built-in icon, add an entry to the `ICONS` object in `index.html`. Icons are drawn on a 64×64 `viewBox` with the paint classes defined in the stylesheet (`f-r`, `s-w`, …), so they follow the theme.
 
+## How this was made
+
+All of this project was generated with [Claude](https://claude.com/claude) (Anthropic), first as a claude.ai artifact and then in Claude Code. That includes the server, the front end, the Docker setup, the sample configs and this README. Commits that Claude helped write carry a `Co-Authored-By: Claude` trailer.
+
+What that means for you:
+
+- **I haven't checked every part of the code by hand.** I directed the work and tried the result. It runs on my home server, and it has had basic checks: a health check, a small load test and input validation on the API. It hasn't had a line-by-line review or a security audit.
+- **There's no warranty** (see the [MIT license](LICENSE)). Use it at your own risk, especially if other people's data or an internet-facing server is involved.
+- **Bug reports are welcome.** If you spot a mistake in the code or the docs, please open an issue.
+
 ## Credits
 
 The sample crochet calendar links to free patterns by their designers, and every pattern and photo belongs to its creator. If you publish a calendar, link to the original source so the creators get the visit, as the sample does.
 
 ## License
 
-No license has been chosen yet. Add a `LICENSE` file before publishing. MIT is a common choice for small self-hosted tools.
+[MIT](LICENSE). The software is provided as is, without warranty of any kind. That matters more than usual here, because the code was AI-generated and hasn't been fully reviewed (see [How this was made](#how-this-was-made)). The license covers this project's code and docs only. The patterns, photos and other content the sample calendar links to belong to their creators.

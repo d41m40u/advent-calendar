@@ -2,6 +2,9 @@
 
 Stdlib only. Config is re-read on every request, so editing the JSON needs no restart
 (except switching "progress" mode, which is also picked up live).
+
+AI-generated: written entirely by Claude (Anthropic). The project owner has not reviewed
+every line by hand. See "How this was made" in README.md.
 """
 import json
 import os
